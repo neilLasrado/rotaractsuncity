@@ -55,10 +55,10 @@
 
 .demo-2 .main-title::before {
 	content: '';
-	width: 60vw;
-	height: 60vw;
-	min-width: 3.5em;
-	min-height: 3.5em;
+	width: 40vw;
+	height: 40vw;
+	min-width: 5.5em;
+	min-height: 5.5em;
 	background: url(../img/suncity.png) no-repeat center center;
 	background-size: contain;
 	position: absolute;
@@ -66,7 +66,21 @@
 	left: 50%;
 	z-index: -1;
 	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-60%,0);
+	transform: translate3d(-50%,-50%,0);
+	
+}
+
+.save-wildlife {
+	padding-top: 280px;
+	color:white!important;
+	z-index:20;
+}
+
+.save-wildlife-desc {
+	padding-top: 80px;
+	color:white!important;
+	z-index:20;
+	font-size: 30px !important;
 }
 
 .demo-3 .main-title {
